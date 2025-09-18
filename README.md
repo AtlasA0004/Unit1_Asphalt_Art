@@ -24,12 +24,13 @@ This project was created on Code.org's JavaLab platform using the built-in Neigh
 
 1. Describe your project.
 
-   - Write your response here...
+   - My project uses the PainterPlus class to draw a crescent moon with stars on a 16 x 16 grid. It creates 3 subclasses of PainterPlus to do this which are SkyPainter, StarPainter and MoonPainter. SkyPainter paints the background and the small stars using the method paintSky(). StarPainter paints the large yellow stars using the methods starStart(), paintStar() and paintStars(). MoonPainter paints the moon using the methods MoonStart() and PaintMoon().
+    
 
 2. What are two things about your project that you are proud of?
 
-   - Write your response here...
+   - The two things that I am proud of for my project are the resulting design which is cool, and my use of methods to reduce the repeating code to make it cleaner.
 
 3. Describe something you would improve or do differently if you had an opportunity to change something about your project.
 
-   - Write your response here...
+   - Something that I would do differently is implement the paintMove(color) earlier so that I did not waste time writing the methods Move and paint and replacing them. 
