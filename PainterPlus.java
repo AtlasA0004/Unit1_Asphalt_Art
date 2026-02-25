@@ -7,7 +7,7 @@ import org.code.neighborhood.*;
 
 public class PainterPlus extends Painter {
 
-  /* 
+  /** 
   *Turns the painter 90 degrees to the right
   Used to decrease repetition of turnLeft(); statements
   */
@@ -17,16 +17,17 @@ public class PainterPlus extends Painter {
     turnLeft();
   }
 
-  /*
+  /**
   *Paints the current square a parameter color then moves forward one
-  Used to decrease the reptition of paint(color); move();
+  * Precondition: Painter has atleast 1 paint
+  * @param color the color to paint
   */
   public void paintMove(String color){
     paint(color);
     move();
   }
 
-  /*
+  /**
   *Takes all of the paint from the bucket
   */
   public void takeAllPaint(){
@@ -35,8 +36,8 @@ public class PainterPlus extends Painter {
     }
   }
 
-  /*
-  *Moves the painter until it reaches an obstical
+  /**
+  *Moves the painter until it reaches an obstaical
   */
   public void moveFast(){
     while(canMove()){
@@ -44,8 +45,10 @@ public class PainterPlus extends Painter {
     }
   }
 
-  /*
+  /**
   *Paints a parameter color then moves as long as the painter has paint
+  * @param color The color to paint
+  * Postcondition: the painter no longer has any paint
   */
   public void paintToEmpty(String color){
     while(hasPaint()){

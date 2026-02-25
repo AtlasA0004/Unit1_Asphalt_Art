@@ -34,3 +34,4 @@ This project was created on Code.org's JavaLab platform using the built-in Neigh
 3. Describe something you would improve or do differently if you had an opportunity to change something about your project.
 
    - Something that I would do differently is implement the paintMove(color) earlier so that I did not waste time writing the methods Move and paint and replacing them. 
+

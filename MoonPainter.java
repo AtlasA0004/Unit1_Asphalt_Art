@@ -8,7 +8,7 @@ import org.code.neighborhood.*;
 
 public class MoonPainter extends PainterPlus{
   
-  /*
+  /**
   *Moves the painter to the start of the moon
   *Starts from the original position
   *Ends at the top left of the moon facing east
@@ -20,10 +20,11 @@ public class MoonPainter extends PainterPlus{
   }
 
 
-  /*
+  /**
   *Paints the moon
   *Starts from the top left of the moon facing east
   *Ends one over from the bottom left of the moon facing west
+  * Precondition: The painter is at the correct start position
   */
   public void paintMoon(){
     setPaint(138);

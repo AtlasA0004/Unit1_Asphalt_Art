@@ -8,10 +8,11 @@ import org.code.neighborhood.*;
 public class StarPainter extends PainterPlus{
 
 
-  /*
+  /**
   *Move the painter to the first star
   Starts from the origanal position
   Ends on the left point of the first star facing East
+  * Precondition: The painter is at the correct start position
   */
   public void starStart(){
     turnRight();
@@ -19,7 +20,7 @@ public class StarPainter extends PainterPlus{
     turnLeft();
   }
 
-  /*
+  /**
   *Paints a yellow star
   *Starts on the left point facing east
   Ends on the right poin facing east
@@ -45,7 +46,7 @@ public class StarPainter extends PainterPlus{
     
   }
 
-  /*
+  /**
   * Paints all of the yellow stars
   *Starts on the left point of the first star facing east
   *Ends on the right point of the third star facing east

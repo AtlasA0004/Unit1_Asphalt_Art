@@ -10,12 +10,12 @@ public class SkyPainter extends PainterPlus{
   
   int rowNum = 1; //Varible used to place the stars and turn the correct way
   
- /*
+ /**
   *Paint each row black exept for rows 5, 6 and 16, which have white stars
   Starts from the starting position
   Ends in the bottom left corner facing west
+  * Precondition: The painter is at the correct start position
   */
-  
   public void paintSky(){
     setPaint(256); //16^2 == 256
     
